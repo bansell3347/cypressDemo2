@@ -2,3 +2,5 @@ cypress/videos
 node_modules/
 cypress/screenshots
 testInstance.pem
+cypress/screenshots
+package-lock.json

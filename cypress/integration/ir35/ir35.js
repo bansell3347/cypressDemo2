@@ -7,7 +7,6 @@ const url = "https://www.contractorcalculator.co.uk/ir35calculator.aspx";
 Given(`I open the webpage`, () => {
   cy.visit(url);
   cy.log("website accessed");
-  cy.wait(100000);
 });
 Then("I enter {string} as the day rate", (rate) => {
   hp.RateInput.clear();

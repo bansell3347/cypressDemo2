@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://www.contractorcalculator.co.uk",
+    "video": false,
+    "defaultCommandTimeout": 5000,
+    "pageLoadTimeout": 10000,
+    "ignoreTestFiles": ["*.js", "*.md"],
+    "testFiles": "**/*.{feature,features}",
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    }
+  }

@@ -1,0 +1,12 @@
+# integration/docker-compose.yml from repo
+# https://github.com/bahmutov/cypress-open-from-docker-compose
+version: '3.2'
+services:
+  # Cypress container
+  cypress:
+    # the Docker image to use from https://github.com/cypress-io/cypress-docker-images
+    image: "cypress/included:8.7.0"
+    # share the current folder as volume to avoid copying
+    working_dir: /integration
+    volumes:
+      - ./:/integration
